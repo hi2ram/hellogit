@@ -1,3 +1,4 @@
+package org.test;
 
 public class NewWorld
 {
