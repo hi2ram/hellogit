@@ -23,4 +23,9 @@ public class HelloWorld
   {
     System.print.outln("Poo");
   }
+
+  public void printBoo()
+  {
+    System.print.outln("Boo");
+  }
 }
