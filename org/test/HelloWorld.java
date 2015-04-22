@@ -11,22 +11,24 @@ public class HelloWorld
     //Create a new HelloWorld Instance
     HelloWorld hello = new HelloWorld();
     //Call the print method
-    hello.print();
+    hello.printPoo();
+    hello.printBoo();
   }
 
-  public void print()
+  private void print(Stirng message)
   {
-    System.print.outln("Hello World from Print()");
+    System.print.outln(message);
   }
   
-  public void printPoo()
+  private void printPoo()
   {
-    System.print.outln("Poo");
+    //Poo
+    print("Poo");
   }
 
-  public void printBoo()
+  private void printBoo()
   {
     //Boo
-    System.print.outln("Boo");
+    print("Boo");
   }
 }
