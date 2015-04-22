@@ -26,6 +26,7 @@ public class HelloWorld
 
   public void printBoo()
   {
+    //Boo
     System.print.outln("Boo");
   }
 }
