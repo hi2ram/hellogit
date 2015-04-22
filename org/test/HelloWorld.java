@@ -19,4 +19,8 @@ public class HelloWorld
     System.print.outln("Hello World from Print()");
   }
 
+  public void printBoo()
+  {
+    System.print.outln("Boo");
+  }
 }
